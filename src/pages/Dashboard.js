@@ -1,4 +1,5 @@
 import React from 'react';
+import QRCode from 'react-qr-code';
 import SmallBox from '../components/small-box/SmallBox';
 
 const Dashboard = () => {
@@ -38,6 +39,9 @@ const Dashboard = () => {
                         navigateTo="/"
                     />
                 </div>
+            </div>
+            <div className="row">
+                <QRCode value="xxx" size={150} />
             </div>
         </div>
     );

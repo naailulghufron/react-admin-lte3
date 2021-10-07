@@ -52,6 +52,12 @@ const MenuSidebar = () => {
                                 <p>{t('menusidebar.label.profile')}</p>
                             </NavLink>
                         </li>
+                        <li className="nav-item">
+                            <NavLink to="/dep" exact className="nav-link">
+                                <i className="nav-icon fas fa-user" />
+                                <p>{t('Department')}</p>
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
             </div>

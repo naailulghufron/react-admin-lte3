@@ -6,6 +6,7 @@ import {loadUser, logoutUser} from '@store/reducers/auth';
 
 import Dashboard from '@pages/Dashboard';
 import Profile from '@pages/profile/Profile';
+import Department from '@app/pages/Department';
 
 import Header from './header/Header';
 import Footer from './footer/Footer';
@@ -72,6 +73,7 @@ const Main = () => {
                         <Switch>
                             <Route exact path="/profile" component={Profile} />
                             <Route exact path="/" component={Dashboard} />
+                            <Route exact path="/dep" component={Department} />
                         </Switch>
                     </section>
                 </div>
